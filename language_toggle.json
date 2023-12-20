@@ -1,0 +1,17 @@
+{
+    "description": "fn key -> language toggle",
+    "manipulators": [
+        {
+            "from": {
+                "key_code": "fn"
+            },
+            "to_if_alone": [
+                {
+                    "key_code": "spacebar",
+                    "modifiers": "left_control"
+                }
+            ],
+            "type": "basic"
+        }
+    ]
+}
