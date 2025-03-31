@@ -1,0 +1,22 @@
+{
+    "description": "vscode terminal toggle",
+    "manipulators": [
+        {
+            "from": {
+                "key_code": "grave_accent_and_tilde",
+                "modifiers": {
+                    "mandatory": [
+                        "left_command"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "grave_accent_and_tilde",
+                    "modifiers": "left_control"
+                }
+            ],
+            "type": "basic"
+        }
+    ]
+}

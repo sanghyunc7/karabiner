@@ -1,0 +1,22 @@
+{
+    "description": "left option alone -> mission control",
+    "manipulators": [
+        {
+            "from": {
+                "key_code": "left_option"
+            },
+            "to": [
+                {
+                    "key_code": "left_option",
+                    "lazy": true
+                }
+            ],
+            "to_if_alone": [
+                {
+                    "apple_vendor_keyboard_key_code": "mission_control"
+                }
+            ],
+            "type": "basic"
+        }
+    ]
+}
